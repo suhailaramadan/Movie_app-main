@@ -6,14 +6,14 @@ import 'package:movie_app/view/browse.dart';
 import 'package:movie_app/view/search_screen.dart';
 import 'package:movie_app/view/wish_list.dart';
 
-class homeScreen extends StatefulWidget {
+class HomePage extends StatefulWidget {
   static const String routeName = "/homeScreen";
 
   @override
-  State<homeScreen> createState() => _homeScreenState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _homeScreenState extends State<homeScreen> {
+class _HomePageState extends State<HomePage> {
   List<Widget> tabs = [
     HomeScreen(),
     const searchScreen(),
